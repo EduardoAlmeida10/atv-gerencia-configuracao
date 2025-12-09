@@ -28,14 +28,10 @@ jobs:
         run: ls -la proj-vendas-online/src
 
       - name: Listar arquivos das rotas
-        run: ls -la proj-vendas-online/src/routes
-
-      - name: Listar arquivos do public
-        run: ls -la proj-vendas-online/public
+        run: ls -la src/routes
 
       - name: Instalar dependências do Node
         run: |
-          cd proj-vendas-online
           npm install
 
       - name: Executar mensagem final
