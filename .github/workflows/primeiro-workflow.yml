@@ -24,9 +24,6 @@ jobs:
       - name: Listar arquivos do src
         run: ls -la src
 
-      - name: Listar arquivos das rotas
-        run: ls -la src/routes
-
       - name: Executar mensagem de sucesso
         run: echo "Pipeline executada com sucesso!"
 
